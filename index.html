@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Twitter clone
+	</title>
+	<meta charset="UTF-8" />
+	<link rel="./src/styles.css" type="text/css" href="./src/styles.css">
+	<link rel="./src/index.js" type="text/css" href="./src/index.js">
+	<link rel="./src/avatar.png" type="text/css" href="./src/avatar.png">
+</head>
+
+<body>
+		<header>
+				<h1>Twitter</h1>
+			</header>
+
+	<div id="app">
+		<main>
+				<div id="avatar-section">
+						<img src="./src/avatar.png" alt="Avatar">
+					</div>
+			<form id="tweet-form">
+				<textarea id="tweet-text" placeholder="What's happening?"></textarea>
+				<button id="tweet-button">Tweet</button>
+			</form>
+			<section id="tweets">
+					<div class="tweet">
+							<span class="date-time"></span>
+						</div>
+						<section class="comments">
+								<h3>Comments:</h3>
+								<ul class="comment-list"></ul>
+								<form class="comment-form">
+									<input type="text" class="comment-input" placeholder="Add a comment...">
+									<input type="submit" class="comment-submit" value="Submit">
+								</form>
+						</section>
+			</section>
+		</main>
+	</div>
+
+	<footer>
+			<p>Copyright &copy; 2023 Twitter Inc.</p>
+	</footer>
+		
+</body>
+</html>

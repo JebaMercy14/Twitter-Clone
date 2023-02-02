@@ -1,0 +1,113 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background-color: #1DA1F2;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+  margin-right: 1rem;
+}
+
+.tweet-box {
+  overflow: auto;
+}
+
+#tweet-form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex: 1;
+  padding: 10px;
+}
+
+#tweet-text {
+  width: 100%;
+  height: 5rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  resize: none;
+}
+
+#tweet-button {
+  background-color: skyblue;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+.comments h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.comment-list {
+  list-style: none;
+  padding: 0;
+}
+
+.comment-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.comment-form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.comment-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+}
+
+.comment-submit {
+  padding: 10px 20px;
+  background-color: lightblue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: lightgray;
+  color: black;
+  padding: 1rem;
+  text-align: center;
+}
